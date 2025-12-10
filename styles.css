@@ -1,24 +1,27 @@
 body {
     color: white;
     background: black;
-    margin: 0px;
+    margin: 0;
     font-family: "Chakra Petch", sans-serif;
-    margin-bottom: 100px;
 }
 
+/* HEADER */
 header {
     border-bottom: solid 2px rgb(42, 122, 228);
     padding: 20px;
     font-size: 32px;
     color: rgb(42, 122, 228);
+    text-align: center;
 }
 
+/* ÁREA PRINCIPAL */
 .chamada {
     background: rgb(184, 156, 213);
-    padding-bottom: 80px;
-    padding-top: 80px;
+    padding: 80px 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .chamada-texto {
@@ -32,36 +35,33 @@ h1 {
 p {
     font-size: 20px;
 }
-section {
-    background-color: #c7a3db; 
-    width: 100%;
-    min-height: 100vh;
-    padding-bottom: 40px; 
+
+/* CATEGORIA */
+.categoria {
+    background-color: #c7a3db;
+    padding: 20px;
+    margin: 0;
 }
+
+.categoria h2 {
+    color: rgb(42, 122, 228);
+    margin-bottom: 20px;
+}
+
 .categoria-videos {
     display: flex;
     gap: 10px;
-    overflow-x: scroll;
+    overflow-x: auto;
     padding-bottom: 10px;
 }
 
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
-}
-
 .categoria-videos img {
-    width: 300px;      
-    height: 180px;     
-    object-fit: cover; 
-    opacity: 0.7;    
-    border-radius: 10px; 
-}
-
-img {
-    max-width: 100%;
-    height: auto;
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    opacity: 0.7;
+    border-radius: 10px;
+    transition: 0.3s;
 }
 
 .categoria-videos img:hover {
@@ -69,7 +69,7 @@ img {
     border: 3px solid green;
 }
 
-.categoria h2 {
-    color: rgb(42, 122, 228);
+img {
+    max-width: 100%;
+    height: auto;
 }
-
