@@ -32,7 +32,11 @@ h1 {
 p {
     font-size: 20px;
 }
-
+section {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
 .categoria-videos {
     display: flex;
     gap: 10px;
@@ -62,8 +66,4 @@ p {
 .categoria h2 {
     color: rgb(42, 122, 228);
 }
-section {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
-}
+
