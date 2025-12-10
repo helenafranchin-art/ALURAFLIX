@@ -33,9 +33,10 @@ p {
     font-size: 20px;
 }
 section {
+    background-color: #c7a3db; 
     width: 100%;
-    max-width: 100%;
-    overflow-x: auto;
+    min-height: 100vh;
+    padding-bottom: 40px; 
 }
 .categoria-videos {
     display: flex;
