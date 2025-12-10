@@ -62,3 +62,8 @@ p {
 .categoria h2 {
     color: rgb(42, 122, 228);
 }
+section {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+}
